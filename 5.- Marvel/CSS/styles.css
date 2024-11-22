@@ -1,0 +1,49 @@
+
+* {
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  
+}
+
+header {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.8);
+  margin-bottom: 10px; 
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    row-gap: 10px;
+
+  }
+  
+  .grid-container > div {
+    background-color: rgba(128, 128, 128, 0.8);
+
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .grid-item {
+    background-color: gray;
+    text-align: center;
+  }
+
+  img {
+    width: 140px;
+    margin-top: 15px;
+  }
+
+  .titulo {
+    color: darkslateblue;
+    font-size: large;
+  }
+
+  .autor {
+    font-size: small;
+  }
+  
